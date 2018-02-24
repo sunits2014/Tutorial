@@ -1,0 +1,75 @@
+.loginContainer {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer > form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 #333;
+    flex-basis: 25%;
+}
+
+h4{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 0.5em !important;
+    background-color: dodgerblue;
+    color: white;
+}
+
+h4, ul {
+    margin:0;
+    padding:0;
+}
+
+ul > li {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0.5em;
+    display: flex;
+}
+
+li > label {
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+}
+
+li > input {
+    flex-basis: 70%;
+    padding:0.5em;
+}
+
+li > input:focus {
+    outline: none;
+}
+
+li > div {
+    flex-basis: 50%;
+}
+
+button {
+    padding: 0.5em;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    margin:0.5em;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.radioBtn:before {
+    content: "\f111";
+    font-family: FontAwesome;
+}

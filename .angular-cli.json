@@ -29,6 +29,11 @@
       }
     }
   ],
+  "defaults": {
+    "serve": {
+      "port": 8080
+    }
+  },
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
